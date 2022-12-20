@@ -71,9 +71,14 @@
         }
         
 
-        public function delete($userid) {
-            $deleterecord = mysqli_query($this->dbcon, "DELETE FROM rental WHERE rental_id = '$userid'");
+        public function delete($rentalid) {
+            $deleterecord = mysqli_query($this->dbcon, "DELETE FROM rental WHERE rental_id = '$rentalid'");
             return $deleterecord;
+        }
+
+        public function deletebook($book_id) {
+            $deletebook = mysqli_query($this->dbcon, "DELETE FROM book WHERE book_id = '$book_id'");
+            return $deletebook;
         }
 
     }
