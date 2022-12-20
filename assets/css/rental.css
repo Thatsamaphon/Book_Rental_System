@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d{
+    margin: 0 auto 0px;
+    text-align: center;  
+    padding-top: 200px;
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+
+.e{
+    margin: 0 auto 0px;
+    text-align: center;  
+    padding-top: 80px;
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+.e h3{
+  font-size: 50px;
+}
+
+.d h3{
+  font-size: 50px;
+}
+
+
+.bg{
+    position: relative;
+  opacity: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("carweb.jpg");
+  min-height: 100%;
+}
+
+.bg2{
+    position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("bg2.jpg");
+  min-height: 100%;
+}
+
+.bg3{
+  position: relative;
+opacity: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url("wallpaperz.jpg");
+min-height: 100%;
+}

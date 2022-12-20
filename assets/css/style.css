@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 120%;
+    background: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    width: 20%;
+    margin: 150px auto 0px;
+    color: white;
+    background: #ebebeb;
+    border: 1px solid #bdbdbd;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+}
+.header h3{
+    font-size: 1.8em;
+    color: transparent;
+    background-image: linear-gradient(to right, #2F5233,#2b9b70,#00be6f,#2F5233);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    text-align: center;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0% 100%;
+    }
+
+    50%{
+        background-position: 100% 0%;
+    }
+
+    100%{
+        background-position: 0% 100%;
+    }
+}
+form {
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #bdbdbd;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+}
+.container{
+    color: white;
+    padding: 1.5%;
+    background-image: linear-gradient(0deg, #2F5233 0%, rgb(15, 150, 105) 100%);
+    text-align: left;
+    font-size: 1rem;
+}
+
+.container h3{
+    font-size: 30px;
+}
+.btn{
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(0deg, #2F5233 0%, rgb(15, 150, 105) 100%);
+    border: none;
+    border-radius: 5px;
+}
+.logout{
+    font-size: 20px;
+}
+
+.homecontent{
+    text-align: left;
+    width: 100%;
+    background: #ffffff;
+    height: 100vh;
+}
+.mb-3 {
+    margin: 10px 0px 10px 0px;
+}
+
+.mb-3 label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.mb-3 input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.fqwwfqfqw{
+    margin: 0 auto 0px;
+    text-align: center;    
+    padding-top: 20px;
+    color: white;
+    background: rgba(0,0,0,0.1)url(wallpaper.jpg);
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+.d{
+    margin: 0 auto 0px;
+    text-align: center;  
+    padding-top: 20px;
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+.red{
+    color: red;
+}
