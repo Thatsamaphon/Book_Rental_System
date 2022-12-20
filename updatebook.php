@@ -108,10 +108,11 @@
                     </div>
                     <?php } ?>
             <br>
+            <a class='btn btn-danger' href ='deletebook.php?del=<?php echo $book_id;?>'>DELETE</a>
             <button type="submit" name="update" class="btn btn-success">UPDATE</button>
         </form>
     </div>
-
+                
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCuoe93lQkgRaC7FB8fMOr_g1dmMRwKng&callback=myMap" type="text/javascript"></script>
     <script src="assets/js/jquery.min.js"></script>
